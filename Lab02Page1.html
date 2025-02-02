@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 2 Part 1</title>
+            <style>
+              body {
+                  background-color: blue
+              }
+              input[type=submit] {
+                  background-color: blueviolet;
+                  padding: 5px 15px;
+              }
+              input[type=submit]:hover {
+                  background-color: rebeccapurple;
+              }
+              .red {
+                  color: red;
+                  margin: auto;
+              }
+              .mylabel {
+                  margin:1%;
+                  font-size: large;
+              }
+              </style>
+              
+          </head>
+</head>
+<body>
+    <div class="red">
+        <h1>Lab 2 Form! Give Me Your Name</h1>
+    </div>
+    <form action="./Lab02Page2.html">
+        <div class="mylabel"><label for="fname" required>First Name:</label></div>
+        <input type="text"><br>
+        <div class="mylabel"><label for="lname" required >Last Name:</label></div>
+        <input type="text">	<br> <br>
+        <input type="submit" value="Submit">
+    </form>
+    <div class="red">
+        <p>You certainly won't regret giving me your name!</p>
+    </div>
+</body>
+</html>
